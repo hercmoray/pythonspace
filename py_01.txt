@@ -1,3 +1,12 @@
 a=1
 b=2
 print(a+b)
+
+def minnum(a,b,c):
+    """返回3个数字的最小值
+    >>> minnum(24,10,5)
+    5
+    """
+    return min(a,b,c)
+
+help(minnum)
