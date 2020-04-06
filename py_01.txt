@@ -10,3 +10,11 @@ def minnum(a,b,c):
     return min(a,b,c)
 
 help(minnum)
+
+def mod_5(x):
+    """ 返回x除以5以后的余数"""
+    return x % 5
+
+print(max(100,51,14),
+max(100,51,14,key=mod_5),
+sep='\n')
